@@ -52,8 +52,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <p className='text-white text-[26px] lg:text-[36px] font-bold pointer-events-auto cursor-pointer flex'>
-            FK
+          <p className='text-[26px] lg:text-[120px] font-bold pointer-events-auto cursor-pointer flex'>
+            <span className='text-white'>C</span>
+            <span className='text-[#E9801A]'>S</span> 
+            <span className='text-[#04AE34]'>C</span>
           </p>
         </Link>
 
