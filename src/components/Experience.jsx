@@ -71,13 +71,11 @@ const Experience = () => {
   return (
     <div className="sm:my-20">
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionText} text-center`}>
-          Members
-        </h2>
+        <h2 className={`${styles.sectionText} text-center`}>Members</h2>
       </motion.div>
 
       <div className="relative mt-10 md:mt-20 md:p-20 flex flex-col items-center sm:flex-row sm:items-start">
-        <div className="flex flex-col z-10 sm:w-auto sm:w-full">
+        <div className="flex flex-col z-10 sm:w-full">
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
