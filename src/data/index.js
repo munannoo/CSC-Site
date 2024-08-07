@@ -1,8 +1,4 @@
-import {
-  algorithms,
-  devnotes,
-  oscs,
-} from "../assets";
+import { algorithms, devnotes, oscs } from "../assets";
 
 export const navLinks = [
   {
@@ -20,6 +16,139 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+export const members = [
+  {
+    profile: "",
+    name: "Gaurav Phuyal",
+    post: "IT Head",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Manish Bagale",
+    post: "Technical Advisor",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Ishan Kharel",
+    post: "President",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Arnav Adhikari",
+    post: "Vice President",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Bhumika Chand",
+    post: "Secretary",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Manish Budhathoki",
+    post: "Deputy Secretary",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Samriddhi Basyal",
+    post: "Research & Development Head",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Mayush Singh",
+    post: "IT Head",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Shuva Aashish Gyawali",
+    post: "Treasurer",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Yeman Dahal",
+    post: "Program Incharge",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Austin KC",
+    post: "Academic Advisor",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Jasniya Shrestha",
+    post: "Club Representative",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
+  },
+  {
+    profile: "",
+    name: "Ayush GC",
+    post: "Advisor",
+    links: {
+      facebook: "",
+      mail: "",
+      insta: "",
+    },
   },
 ];
 
@@ -88,4 +217,3 @@ const portfolio = [
 ];
 
 export { experiences, portfolio };
-
