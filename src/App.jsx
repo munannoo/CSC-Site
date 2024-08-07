@@ -1,13 +1,6 @@
 import { useEffect, useRef } from "react";
 import { BrowserRouter } from "react-router-dom";
-import {
-  Contact,
-  Experience,
-  Hero,
-  Navbar,
-  Portfolio,
-  Member,
-} from "./components";
+import { Contact, Hero, Navbar, Portfolio, Member } from "./components";
 import Footer from "./components/Footer";
 
 const App = () => {

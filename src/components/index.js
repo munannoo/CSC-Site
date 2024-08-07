@@ -1,5 +1,4 @@
 import Contact from "./Contact";
-import Experience from "./Experience";
 import Hero from "./Hero";
 import CanvasLoader from "./Loader";
 import Navbar from "./Navbar";
@@ -12,7 +11,6 @@ export {
   CanvasLoader,
   Member,
   Contact,
-  Experience,
   Hero,
   Navbar,
   Portfolio,
