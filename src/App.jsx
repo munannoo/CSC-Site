@@ -1,6 +1,13 @@
 import { useEffect, useRef } from "react";
 import { BrowserRouter } from "react-router-dom";
-import { Contact, Experience, Hero, Navbar, Portfolio } from "./components";
+import {
+  Contact,
+  Experience,
+  Hero,
+  Navbar,
+  Portfolio,
+  Member,
+} from "./components";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -17,8 +24,8 @@ const App = () => {
           <div id="portfolio" className="relative z-30 bg-primary mt-[-2px]">
             <Portfolio />
           </div>
-          <div id="experience" className="relative z-30 bg-primary">
-            <Experience />
+          <div id="member" className="relative z-30 bg-primary">
+            <Member />
           </div>
           <div id="contact" className="relative z-30 bg-primary">
             <Contact />
