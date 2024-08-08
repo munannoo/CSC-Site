@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div className="py-7 text-center">
         <p className="text-slate-300">
-          Copyright &copy; 2024 CCRC SCIENTIFIC CIRCLE
+          Made with 💗 by <a href="https://github.com/0mdrn" target="_blank" style={{ color: 'cyan'}}>MDRN </a>|| Copyright &copy; 2024 <a href="https://github.com/0mdrn" target="_blank" style={{ color: 'cyan'}}>MDRN </a>
         </p>
       </div>
     </div>
