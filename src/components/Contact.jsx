@@ -1,5 +1,6 @@
-import React, { useRef, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
+import React, { useEffect, useRef, useState } from "react";
+
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 
@@ -12,8 +13,12 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
-  const [submissionStatus, setSubmissionStatus] = useState("");
+  const [submissionStatus, setSubmissionStatus] = useState(""); // New state for submission status
   const controls = useAnimation();
+
+  useEffect(() => {
+    controls.start("show");
+  }, [controls]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,9 +28,9 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setSubmissionStatus("");
+    setSubmissionStatus(""); // Reset submission status
 
-    const webhookURL = "YOUR_DISCORD_WEBHOOK_URL"; // Replace with your Discord webhook URL
+    const webhookURL = "https://discord.com/api/webhooks/1271165005407977603/eOzBF1vhh7v0_5J8y8ym-uypp-d5mJFQe-adPaHg4OPuC-JTE_cYV3b1CU9YoNFsA4QS"; // Replace with your Discord webhook URL
 
     const payload = {
       content: `**Name:** ${form.name}\n**Email:** ${form.email}\n**Message:** ${form.message}`,
@@ -64,8 +69,19 @@ const Contact = () => {
         initial="hidden"
         animate={controls}
         variants={{
-          hidden: { opacity: 0, y: 100 },
-          show: { opacity: 1, y: 0, transition: { type: "tween", duration: 1, delay: 0.2 } },
+          hidden: {
+            opacity: 0,
+            y: 100,
+          },
+          show: {
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "tween",
+              duration: 1,
+              delay: 0.2,
+            },
+          },
         }}
         className="flex-[0.8] md:pb-40 mx-4 sm:mx-auto"
       >
