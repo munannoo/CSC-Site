@@ -1,5 +1,5 @@
 import { members } from "../data/";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
@@ -7,7 +7,7 @@ import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
 
 const MemberCard = ({
-  profile = "https://www.freeiconspng.com/img/898",
+  profile = "https://www.freeiconspng.com/uploads/profile-icon-9.png",
   name,
   post,
   links,
@@ -15,8 +15,8 @@ const MemberCard = ({
   return (
     <div className="w-64 flex flex-col">
       <img
-        className="m-auto mb-5 w-48 h-48 p-7 rounded-full border-solid border-8 border-sky-500"
-        src="https://www.freeiconspng.com/uploads/profile-icon-9.png"
+        className="m-auto mb-5 w-60 h-60 p-3 rounded-full border-solid border-8 border-sky-500"
+        src={profile}
         alt="profile picture"
       />
       <h2 className="text-slate-200 text-3xl">{name}</h2>
@@ -31,6 +31,11 @@ const MemberCard = ({
         <a href={links.mail}>
           <SiGmail size={25} />
         </a>
+        {links.github && (
+    <a href={links.github}>
+      <FaGithub size={25} />
+    </a>
+  )}
       </div>
     </div>
   );
@@ -50,6 +55,7 @@ const Member = () => {
               profile={member.profile}
               name={member.name}
               post={member.post}
+              github={member.github}
               links={member.links}
             />
           );

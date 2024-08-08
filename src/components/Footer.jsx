@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaYoutube, FaDiscord } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaDiscord, FaGithub } from "react-icons/fa";
 import { navLinks } from "../data";
 
 const Footer = () => {
@@ -18,6 +18,9 @@ const Footer = () => {
         </a>
         <a href="https://discord.gg/XRKtju8psq" target="_blank">
           <FaDiscord className="px-1 w-20" size={50} />
+        </a>
+        <a href="https://github.com/0mdrn" target="_blank">
+          <FaGithub className="px-1 w-20" size={50} />
         </a>
       </div>
       <div className="py-7 text-center">

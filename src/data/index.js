@@ -1,4 +1,6 @@
 import { algorithms, devnotes, oscs } from "../assets";
+import gaurav from "./pfp/gaurav.jpg";
+
 
 export const navLinks = [
   {
@@ -21,13 +23,14 @@ export const navLinks = [
 
 export const members = [
   {
-    profile: "",
+    profile: gaurav,
     name: "Gaurav Phuyal",
     post: "IT Head",
     links: {
-      facebook: "",
-      mail: "",
-      insta: "",
+      facebook: "https://www.facebook.com/red.rupees/",
+      mail: "phuyalgaurav90@gmail.com",
+      insta: "https://www.instagram.com/red.rupees/",
+      github: "https://github.com/phuyalgaurav",
     },
   },
   {
@@ -38,6 +41,7 @@ export const members = [
       facebook: "",
       mail: "",
       insta: "",
+      github: "https://github.com/munannoo",
     },
   },
   {
