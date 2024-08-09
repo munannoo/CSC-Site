@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#011825",
-        secondary: "#F0EFEB",
+        secondary: "#10EFEB",
         tertiary: "#0D3056",
         quaternary: "#1689C8",
       },
@@ -34,7 +34,42 @@ module.exports = {
         title: '2rem',
         subtitle: '1.5rem',
       },
+      textStroke: {
+        'default': '1px white',
+        'lg': '2px black',
+        'primary': '1px #011825',
+        'secondary': '1px #10EFEB',
+        'tertiary': '1px #0D3056',
+        'quaternary': '1px #1689C8',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.text-stroke': {
+          '-webkit-text-stroke': '1px black',
+        },
+        '.text-stroke-lg': {
+          '-webkit-text-stroke': '2px black',
+        },
+        '.text-stroke-primary': {
+          '-webkit-text-stroke': '1px #011825',
+        },
+        '.text-stroke-secondary': {
+          '-webkit-text-stroke': '1px #10EFEB',
+        },
+        '.text-stroke-tertiary': {
+          '-webkit-text-stroke': '1px #0D3056',
+        },
+        '.text-stroke-quaternary': {
+          '-webkit-text-stroke': '1px #1689C8',
+        },
+        '.text-stroke-shadow': {
+          'text-shadow': '2px 2px 4px rgba(0, 0, 0, 0.5)',
+        },
+      };
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 };

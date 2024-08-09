@@ -22,20 +22,26 @@ const MemberCard = ({
       <h2 className="text-slate-200 text-3xl">{name}</h2>
       <p className="text-sm font-bold text-sky-500">{post}</p>
       <div className="flex gap-1 mt-2 bg-sky-500 p-1">
-        <a href={links.facebook}>
+        { links.facebook && (
+          <a href={links.facebook}>
           <FaFacebook size={25} />
-        </a>
+        </a> 
+        )}
+        {links.insta && (
         <a href={links.insta}>
           <FaInstagram size={25} />
         </a>
+        )}
+        {links.mail && (
         <a href={links.mail}>
           <SiGmail size={25} />
         </a>
-        {links.github && (
-    <a href={links.github}>
-      <FaGithub size={25} />
-    </a>
-  )}
+          )}
+          {links.github && (
+            <a href={links.github}>
+              <FaGithub size={25} />
+            </a>
+          )}
       </div>
     </div>
   );
