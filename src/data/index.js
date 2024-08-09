@@ -1,6 +1,13 @@
 import { algorithms, devnotes, oscs } from "../assets";
 import gaurav from "./pfp/gaurav.jpg";
-
+import arnav from "./pfp/arnav.jpg";
+import manish from "./pfp/manish.jpg";
+import shuva from "./pfp/shuva.png";
+import samriddhi from "./pfp/samriddhi.png";
+import jasni from "./pfp/jasni.png";
+import polaris from "./pfp/polaris.png";
+import samir from "./pfp/samir.png";
+import sharbhan from "./pfp/sarbhan.png";
 
 export const navLinks = [
   {
@@ -24,7 +31,7 @@ export const navLinks = [
 export const members = [
   {
     profile: gaurav,
-    name: "Gaurav Phuyal",
+    name: "Gaurav D. Phuyal",
     post: "IT Head",
     links: {
       facebook: "https://www.facebook.com/red.rupees/",
@@ -34,128 +41,87 @@ export const members = [
     },
   },
   {
-    profile: "",
+    profile: manish,
     name: "Manish Bagale",
     post: "Technical Advisor",
     links: {
-      facebook: "",
-      mail: "",
-      insta: "",
+      facebook: "https://www.facebook.com/profile.php?id=100080499631576",
+      mail: "manish.bagale3@gmail.com",
+      insta: "https://www.instagram.com/manishesehepatoxide/",
       github: "https://github.com/munannoo",
     },
   },
   {
-    profile: "",
-    name: "Ishan Kharel",
-    post: "President",
-    links: {
-      facebook: "",
-      mail: "",
-      insta: "",
-    },
-  },
-  {
-    profile: "",
+    profile: arnav,
     name: "Arnav Adhikari",
     post: "Vice President",
     links: {
-      facebook: "",
-      mail: "",
-      insta: "",
+      facebook: "https://www.facebook.com/arnav.adhikari.927",
+      mail: "arnavadhikari1011@gmail.com",
+      insta: "https://www.instagram.com/iamyself._?igsh=bjJ0b2t0c3JwemJ6",
     },
   },
   {
-    profile: "",
-    name: "Bhumika Chand",
-    post: "Secretary",
-    links: {
-      facebook: "",
-      mail: "",
-      insta: "",
-    },
-  },
-  {
-    profile: "",
-    name: "Manish Budhathoki",
+    profile: sharbhan,
+    name: "Sharban Baidhya",
     post: "Deputy Secretary",
     links: {
-      facebook: "",
-      mail: "",
-      insta: "",
+      facebook: "https://www.facebook.com/profile.php?id=100086576078455",
+      mail: "baidhyasharban@gmail.com",
+      insta: "https://www.instagram.com/sharban_baidhya?igsh=M2Uzbjd3eGQ1MWds",
     },
   },
   {
-    profile: "",
+    profile: samriddhi,
     name: "Samriddhi Basyal",
     post: "Research & Development Head",
     links: {
-      facebook: "",
-      mail: "",
+      facebook: "https://www.facebook.com/samriddhi.basyal.96?mibextid=ZbWKwL",
+      mail: "samriddhi.basyal2007@gmail.com",
       insta: "",
     },
   },
   {
-    profile: "",
-    name: "Mayush Singh",
-    post: "IT Head",
-    links: {
-      facebook: "",
-      mail: "",
-      insta: "",
-    },
-  },
-  {
-    profile: "",
-    name: "Shuva Aashish Gyawali",
+    profile: shuva,
+    name: "Shuva A. Gyawali",
     post: "Treasurer",
     links: {
-      facebook: "",
-      mail: "",
-      insta: "",
+      facebook: "https://www.facebook.com/shuvaaashis.gyawali",
+      mail: "gyawalishuva2007@gmail.com",
+      insta: "https://www.instagram.com/shuva_aashish9/",
     },
   },
   {
-    profile: "",
-    name: "Yeman Dahal",
-    post: "Program Incharge",
-    links: {
-      facebook: "",
-      mail: "",
-      insta: "",
-    },
-  },
-  {
-    profile: "",
-    name: "Austin KC",
-    post: "Academic Advisor",
-    links: {
-      facebook: "",
-      mail: "",
-      insta: "",
-    },
-  },
-  {
-    profile: "",
+    profile: jasni,
     name: "Jasniya Shrestha",
     post: "Club Representative",
     links: {
-      facebook: "",
-      mail: "",
-      insta: "",
+      facebook: "https://www.facebook.com/jasni.streatham?mibextid=ZbWKwL",
+      mail: "jasnishrestha28@gmail.com",
+      insta: "https://www.instagram.com/invites/contact/?igsh=wzsa4l6pzi0m&utm_content=b3qbx5j",
     },
   },
   {
-    profile: "",
+    profile: polaris,
     name: "Ayush GC",
     post: "Advisor",
     links: {
-      facebook: "",
-      mail: "",
-      insta: "",
+      facebook: "https://m.facebook.com/profile.php?id=100070325832899&name=xhp_nt__fb__action__open_user",
+      mail: "polarishgharti@gmail.com",
+      insta: "https://www.instagram.com/polarish_57/",
+    },
+  },
+  {
+    profile: samir,
+    name: "Samir Budha",
+    post: "Executive Member",
+    links: {
+      facebook: "https://www.facebook.com/profile.php?id=100074189107247&mibextid=ZbWKwL",
+      mail: "samirbudha333@gmail.com",
+      insta: "https://www.instagram.com/samir_aq7?igsh=bnB4NHZndDk1NGNy",
     },
   },
 ];
-
 const portfolio = [
   {
     name: "Maze of science",
