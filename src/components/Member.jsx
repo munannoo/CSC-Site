@@ -10,7 +10,7 @@ const MemberCard = ({
   profile = "https://www.freeiconspng.com/uploads/profile-icon-9.png",
   name,
   post,
-  links,
+  links={},
 }) => {
   return (
     <div className="w-64 flex flex-col">

@@ -8,6 +8,12 @@ import jasni from "./pfp/jasni.png";
 import polaris from "./pfp/polaris.png";
 import samir from "./pfp/samir.png";
 import sharbhan from "./pfp/sarbhan.png";
+import ishan from "./pfp/ishan.jpg";
+import apeksya from "./pfp/apeksya.png";
+import arbind from "./pfp/arbind.png";
+import eepx from "./pfp/eepx.jpg";
+import biotech from "./pfp/biotech.jpg";
+import locus from "./pfp/locus.png";
 
 export const navLinks = [
   {
@@ -29,6 +35,14 @@ export const navLinks = [
 ];
 
 export const members = [
+  {
+    profile: ishan,
+    name: "Ishan Kharel",
+    post: "President",
+    links: {
+      facebook: "https://www.facebook.com/ishan.kharel.73",
+    },
+  },
   {
     profile: gaurav,
     name: "Gaurav D. Phuyal",
@@ -72,16 +86,6 @@ export const members = [
     },
   },
   {
-    profile: samriddhi,
-    name: "Samriddhi Basyal",
-    post: "Research & Development Head",
-    links: {
-      facebook: "https://www.facebook.com/samriddhi.basyal.96?mibextid=ZbWKwL",
-      mail: "samriddhi.basyal2007@gmail.com",
-      insta: "",
-    },
-  },
-  {
     profile: shuva,
     name: "Shuva A. Gyawali",
     post: "Treasurer",
@@ -89,6 +93,17 @@ export const members = [
       facebook: "https://www.facebook.com/shuvaaashis.gyawali",
       mail: "gyawalishuva2007@gmail.com",
       insta: "https://www.instagram.com/shuva_aashish9/",
+      github: "https://github.com/shuvaaashish",
+    },
+  },
+  {
+    profile: samriddhi,
+    name: "Samriddhi Basyal",
+    post: "Research & Development Head",
+    links: {
+      facebook: "https://www.facebook.com/samriddhi.basyal.96?mibextid=ZbWKwL",
+      mail: "samriddhi.basyal2007@gmail.com",
+      insta: "",
     },
   },
   {
@@ -121,6 +136,16 @@ export const members = [
       insta: "https://www.instagram.com/samir_aq7?igsh=bnB4NHZndDk1NGNy",
     },
   },
+  {
+    profile: apeksya,
+    name: "Apekshya Guragain",
+    post: "Executive Member",
+  },
+  {
+    profile: arbind,
+    name: "Arbind Patel",
+    post: "Executive Member",
+  }
 ];
 const portfolio = [
   {
@@ -140,6 +165,24 @@ const portfolio = [
     description:
       "A workshop for students to learn the basics of electronics and build their own projects.",
     image: algorithms,
+  },
+  {
+    name: "Biotech Workshop",
+    description:
+      "A workshop for students to learn the basics of biotechnology in collaboration with KU.",
+      image: biotech
+  },
+  {
+    name: "2ⁿᵈ Runner Up at IOE Locus  2024",
+    description:
+      "Our team securing the 2nd Runner up position at IOE Locus 2024. A bachlor level hackathon competition.",
+    image: locus,
+  },
+  {
+    name: "2ⁿᵈ at EEPEX, KU",
+    description:
+      "Our team securing the 1st Runner up position at EEPEX, Kathmandu University.",
+    image: eepx,
   },
 ];
 

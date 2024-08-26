@@ -23,7 +23,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/csc-site.git
+    git clone https://github.com/phuyalgaurav/csc-site.git
     cd csc-site
     ```
 
